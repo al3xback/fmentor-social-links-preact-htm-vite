@@ -6,15 +6,14 @@ import Footer from './components/Footer/Footer.jsx';
 
 function App() {
 	return html`
-		<>
-			<${Header} />
-			<main className="main">
-				<div className="container">
-					<${Profile} />
-				</div>
-			</main>
-			<${Footer} />
-		</>`;
+		<${Header} />
+		<main className="main">
+			<div className="container">
+				<${Profile} />
+			</div>
+		</main>
+		<${Footer} />
+	`;
 }
 
 export default App;
